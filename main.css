@@ -1,19 +1,11 @@
 body {
   background-color: darkred;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fstar-wars-stars-background-3.jpg&f=1&nofb=1);
   clear: both;
   margin-bottom: 100px;
   margin: 0;
   min-height: 400px;
   text-align: center;
-}
-
-.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-
 }
 
 li {
@@ -27,6 +19,15 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
 }
 
 li a:hover {
@@ -44,9 +45,23 @@ footer {
 
 .card {
   border: 5px solid black;
+  background-color: darkred;
+  color: lightgray;
   border-radius: 10px;
+  width: 75%;
+  margin: 30px;
+  padding: 10px;  
+  
 }
 
 img {
   height: 300px;
+}
+
+article {
+  background-color: darkred;
+}
+
+h1 {
+  color: yellow;
 }
